@@ -1,0 +1,409 @@
+/*
+Theme Name: Stacy
+Theme URI: https://spicethemes.com/stacy-wordpress-theme/
+Author:spicethemes
+Author URI: https://spicethemes.com
+Template: spicepress
+Description:Stacy is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit stacy theme detail link https://stacy.spicethemes.com/ . We hope you will find the Stacy theme useful.
+In the Stacy child theme, a new header variation, service section variation, blog variation and testimonial variations are there that are not in the parent theme.
+Tags: one-column, two-columns, right-sidebar, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog, e-commerce
+Version: 1.4.7
+Requires at least: 4.5
+Tested up to: 6.3
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stacy
+*/
+
+
+
+/*===================================================================================*/
+/*  Navbar-5 and index5
+/*===================================================================================*/
+.index-logo.index5{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.navbar5.navbar-custom {
+	background-color: #21202E;
+	min-height: 60px;
+}
+.navbar5.navbar-custom .navbar-nav li > a {padding: 20px 17px;color: #ffffff;}
+
+/*@media (max-width: 1100px){
+.navbar5.navbar-custom .navbar-nav li > a {padding: 15px 17px;}
+}*/
+
+.index5 .navbar-brand {
+	float: none;
+  display:inline-block;
+    height: auto;
+}
+.index5 .navbar-brand img {
+	margin: 0 auto;
+}
+.index5 {text-align: center;}
+.index5 .logo-link-url {text-align: center;display: block;}
+.index5 .logo-link-url .site-title {
+	margin: 0;
+    line-height: 0;
+}
+.index5 .logo-link-url .navbar-brand {
+	height: unset;
+    padding: 15px 15px;
+    font-size: 32px;
+    line-height: 10px;
+}
+.index5 .navbar-brand .quality_title_head {line-height: 1.2;}
+.navbar5.navbar-custom .navbar-toggle .icon-bar {
+    background: #ffffff;
+}
+
+@media (min-width: 991px) {
+	.navbar5 .navbar-nav {
+		justify-content: center;
+		display: flex;
+		float: none;
+	}
+}
+@media (min-width: 992px) {
+	.navbar5.navbar-custom .navbar-nav > .active > a:after {
+	    content: '';
+	    position: absolute;
+	    border-top: .3em solid;
+	    border-right: .3em solid transparent;
+	    border-left: .3em solid transparent;
+	    display: block;
+	    top: 0;
+	    color: #ffffff;
+	    left: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.navbar5 .navbar-toggle {
+	    float: none;
+	    margin: 10px auto;
+	}
+}
+@media (max-width: 992px){
+	.navbar5.navbar-custom .dropdown a > i.fa {
+	    padding-right: 10px;
+	}
+	.navbar5 .navbar-toggle {
+	    float: none;
+	    margin: 10px auto;
+	}
+}
+
+
+/*===================================================================================*/
+/*  SERVICE SECTION 2 - 27/01/2020 Monday
+/*===================================================================================*/
+.services2 , .services3 , .services4{
+	padding: 4.375rem 0 1.875rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.services2 .post {
+    position: relative;
+    background:#f8f8f8;
+    margin-bottom: 2rem;
+    padding:1.25rem 1.563rem;
+    transition: 0.25s;
+   -webkit-transition: all 0.25s ease-in;
+   -moz-transition: all 0.25s ease-in;
+   transition: all 0.25s ease-in;
+}
+
+.services2 .post::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    transition: .5s;
+    z-index: 0;
+}
+.services2 .post:hover::before {
+    width: 100%;
+}
+.services2 .post:hover .entry-content p {
+    color: #fff;
+  position:relative;
+}
+
+.services2 .post-thumbnail {
+    position: relative;
+    text-align: left;
+    margin: 0 0 15px;
+}
+.services2 .post-thumbnail i.fa {
+    font-size: 2.25rem;
+    text-align: center;
+}
+.services2 .post:hover .post-thumbnail i.fa {
+    color: #fff !important;
+}
+.services2 .post:hover{
+    color: #fff;
+    -webkit-transition: all 0.25s ease-in;
+-moz-transition: all 0.25s ease-in;
+transition: all 0.25s ease-in;
+}
+.services2 .post{
+    text-align: left;
+}
+.services2 .post .entry-header h4.entry-title  {position: relative;z-index: 1; }
+.services2 .entry-header h4.entry-title:hover { color:#fff !important; z-index:2;}
+.services2 .post:hover .entry-header h4.entry-title{color:#fff; }
+
+.section-module {
+    position: relative;
+    padding: 3.25rem 0 2.5rem;
+}
+
+
+.home .testmonial-block .avatar {
+        margin: 0px auto 1.75rem;
+}
+
+.testmonial-block .avatar {
+        margin: 0 auto 3.75rem;
+        width: 6.563rem;
+        height: 6.563rem;
+}
+.home .testmonial-block p, .home .testmonial-block h4 {
+    color: #fff;
+    padding-bottom: 0.5rem;
+    margin: 0px;
+}
+
+.home .testmonial-block .entry-content p:before {
+        content: '\f10d';
+        font-family: FontAwesome;
+        font-size: 1rem;
+        line-height: 0.1em;
+        margin-right: 0.50em;
+        vertical-align: -0.1em;
+        position: relative;
+        top: 0px;
+        color: #fff;
+}
+
+/*blog list*/
+/* Blog List View Layout ---------------------------------------------------------------------------------------------- */
+#blog2.blog-section {
+        background: #fff;
+}
+#blog2.home-news {
+        padding: 70px 0 30px;
+        margin: 0;
+        width: 100%;
+}
+
+#blog2.blog-section .blog-list-layout .post {
+	padding: 25px;
+}
+#blog2.blog-section .blog-list-layout p:last-child {
+	margin: 0px;
+}
+#blog2.blog-section .blog-list-layout .post-thumbnail.thumb-width {
+	margin: 0px 0px 25px;
+    position: relative;
+}
+@media screen and (min-width: 768px) {
+	#blog2.blog-section .blog-list-layout .post-thumbnail.thumb-width {
+		max-width: 40%;
+	}
+	#blog2.blog-section .blog-list-layout .post-thumbnail.thumb-align-left {
+		float: left;
+		margin: 0 35px 0 0;
+	}
+	#blog2.blog-section .blog-list-layout .post-thumbnail.thumb-align-right {
+		float: right;
+		margin: 0 0 0 35px;
+	}
+}
+
+#blog2.blog-section .blog-list-layout .space-none {
+	padding: 0px 0px 40px !important;
+}
+
+#blog2.blog-section .post .entry-content p {
+        margin: 0 0 20px;
+        padding: 0;
+}
+#blog2 .entry-content p {
+        font-size: 1rem;
+}
+
+.navbar-brand {
+        padding: 5px 15px;
+}
+
+.index5 .navbar-brand.align-right, .site-branding-text.align-right{
+	float: none;
+        padding: 5px 15px;
+        float: none;
+        display: inline-block;
+        height: auto;
+        margin-left: auto;
+}
+
+.wp-block-gallery a:focus{
+    display: block;
+    color: #ccc
+}
+
+@media (min-width: 991px) {
+	.navbar5 .navbar-nav {
+		justify-content: center;
+		display: flex;
+		float: none;
+	}
+}
+@media (min-width: 992px) {
+	.navbar5.navbar-custom .navbar-nav > .active > a:after {
+	    content: '';
+	    position: absolute;
+	    border-top: .3em solid;
+	    border-right: .3em solid transparent;
+	    border-left: .3em solid transparent;
+	    display: block;
+	    top: 0;
+	    color: #FFFFFF;
+	    left: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.navbar5 .navbar-toggle {
+	    float: none;
+	    margin: 10px auto;
+	}
+}
+@media (max-width: 992px){
+	.navbar5.navbar-custom .dropdown a > i.fa {
+	    padding-right: 10px;
+	}
+	.navbar5 .navbar-toggle {
+	    float: none;
+	    margin: 10px auto;
+	}
+}
+.navbar.navbar5 .cart-header{margin: 8px 0 0 10px;}
+.navbar.navbar5 .cart-header > a.cart-icon {color: #FFFFFF;}
+@media (max-width: 991px){
+body .navbar-custom.navbar5 .navbar-nav > li > a:focus, body .navbar-custom.navbar5 .navbar-nav > li > a:hover {
+    background: transparent;
+    color: #fff;
+}}
+.navbar-custom.navbar5 .dropdown-menu.search-panel {
+    top: 60px !important;}
+@media (min-width: 991px){
+.navbar-custom.hp-hc .navbar-nav {
+    display: block;
+    float: none;
+    float: none;
+    text-align: center;
+}}
+/* @media (min-width: 1100px){
+.navbar-custom.hp-hc .navbar-nav > li {
+    float: none;
+    display: inline-block;}}*/
+    .navbar-custom.hp-hc.header-sticky.stickymenu1, .navbar-custom.hp-hc.header-sticky.stickymenu, .navbar-custom.hp-hc.header-sticky.shrink1 {
+    background-color: #21202E !important;
+}
+nav.hp-hc.header-sticky.stickymenu1 .nav .page_item > a, nav.hp-hc.header-sticky.stickymenu .nav .page_item > a, nav.hp-hc.header-sticky.shrink1 .nav .page_item > a, nav.hp-hc.header-sticky.stickymenu1 .navbar-nav li > a, nav.hp-hc.stickymenu .navbar-nav li > a {
+    color: #FFFFFF !important;
+}
+nav.hp-hc.header-sticky.stickymenu1 .nav .page_item > a:hover, nav.hp-hc.header-sticky.stickymenu .nav .page_item > a:hover, nav.hp-hc.header-sticky.shrink1 .nav .page_item > a:hover, nav.hp-hc.header-sticky.stickymenu1 .navbar-nav li > a:hover, nav.hp-hc.stickymenu .navbar-nav li > a:hover {color: #061018 !important}
+ nav.hp-hc.header-sticky.stickymenu1 .navbar-nav li.dropdown.open > a, nav.hp-hc.stickymenu .navbar-nav li.dropdown.open > a {color: #061018 !important}
+ .navbar-custom.hp-hc .dropdown-menu > li > a:hover, .navbar-custom.hp-hc .dropdown-menu > li > a:focus {
+    padding: 12px 15px 12px 20px;
+}
+@media (max-width: 991px){
+nav.hp-hc.header-sticky.stickymenu1 .nav .page_item > a:hover, nav.hp-hc.header-sticky.stickymenu .nav .page_item > a:hover, nav.hp-hc.header-sticky.shrink1 .nav .page_item > a:hover, nav.hp-hc.header-sticky.stickymenu1 .navbar-nav li > a:hover, nav.hp-hc.stickymenu .navbar-nav li > a:hover {
+   color: #FFFFFF !important;
+}
+.hp-hc.header-sticky.stickymenu1 .nav.navbar-nav .dropdown-menu > li > a, .hp-hc.header-sticky.stickymenu1 .nav.navbar-nav .dropdown-menu > li > a, .hp-hc.header-sticky.stickymenu1 .nav.navbar-nav .dropdown-menu > li > a, .hp-hc.header-sticky.stickymenu1 .nav.navbar-nav .dropdown-menu > li > a, .hp-hc.header-sticky.shrink1 .nav.navbar-nav .dropdown-menu > li > a, .hp-hc.header-sticky.shrink1 .nav.navbar-nav .dropdown-menu > li > a {
+    background-color: #21202E;
+}
+}
+.navbar5.hp-hc .cart-header{float: none;display: inline-block;}
+/*@media (max-width: 1100px) {
+  .navbar5.hp-hc .navbar-toggle {
+    display: block;
+    margin: 15px auto;
+    padding: 9px 0px;
+    float: none;
+  }
+}*/
+/*@media (max-width: 1100px) {
+.navbar-custom.hp-hc .navbar-nav {
+    display: block;
+    text-align: left;
+}
+.navbar.navbar5 .navbar-nav > li > a:hover, .navbar.navbar5 .navbar-nav > li > a:focus, .navbar-custom.hp-hc .navbar-nav .dropdown.open > a, .navbar-custom.hp-hc .navbar-nav .dropdown.open > a:focus, .navbar-custom.hp-hc .navbar-nav .dropdown.open > a:hover{background-color: transparent !important;color: #FFFFFF !important;}
+.navbar-custom.hp-hc.navbar5.navbar-custom .navbar-nav > .active > a:after {content: none;}
+}*/
+
+.navbar-custom.hp-hc .navbar-nav > li > a:focus, .navbar-custom.hp-hc .navbar-nav > li > a:hover, .navbar-custom.hp-hc .navbar-nav .open > a, .navbar-custom.hp-hc .navbar-nav .open > a:focus, .navbar-custom.hp-hc .navbar-nav .open > a:hover {
+        color: #395ca3;
+        background-color: #fff;
+}
+.navbar-custom.hp-hc .navbar-nav > li > a:focus, .navbar-custom.hp-hc .navbar-nav > li.active > a:hover{
+    color: #395ca3;
+}
+.navbar5 .dropdown-menu {
+        border-top: 2px solid #395ca3;
+        border-bottom: 2px solid #395ca3;
+}
+
+@media (min-width: 1101px){
+.index5 .navbar-brand.align-center {
+    padding: 5px 15px;
+}}
+
+@media (max-width: 1100px){
+/*.index5 .site-branding-text {
+        float: none;
+}}*/
+
+index5 .navbar-custom .dropdown-toggle:before {
+        position: absolute;
+        display: block;
+        right: 0px;
+        top: 50%;
+        margin-top: -10px;
+        font-family: FontAwesome;
+        font-size: 15px;
+        line-height: 1.2;
+        content: "\f107";
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 1100px){
+.navbar-custom .dropdown-toggle:after {
+    /*//content: initial !important;*/
+}}
+
+@media (min-width: 1100px){
+  .navbar5.navbar-custom .navbar-nav > .active > a:before {
+    content: '';
+    position: absolute;
+    border-top: .3em solid;
+    border-right: .3em solid #0000;
+    border-left: .3em solid #0000;
+    display: block;
+    top: 0;
+    color: #fff;
+    left: 50%;
+  }
+  .navbar5.navbar-custom .navbar-nav > .active > a:after {
+    border: none;
+  }
+}

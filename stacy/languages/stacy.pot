@@ -1,0 +1,638 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacy\n"
+"POT-Creation-Date: 2023-02-03 18:22+0530\n"
+"PO-Revision-Date: 2018-11-01 17:24+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:73
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:112
+msgid "View Theme Info"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:122
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:123
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:136
+#, php-format
+msgid ""
+"Stacy theme is installed. To take full advantage of the features this theme "
+"has to offer visit our %1$s welcome page %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:137
+msgid "Get started with Stacy theme"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:245
+#: admin/tab-pages/getting-started.php:20
+msgid "Getting Started"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:250
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:258
+msgid "Support"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:266
+msgid "Free vs. PRO"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:342
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:344
+#: admin/inc/include-companion.php:81
+msgid "Install and activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:361
+#, php-format
+msgid "Activate %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:363
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:366
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:505
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+msgid "SpiceBox"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:507
+msgid ""
+"To access the advance Frontpage sections and other theme features, please "
+"install the SpiceBox plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:511
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:513
+msgid ""
+"To display the contact form on the contact section in homepage, please "
+"install the Contact Form 7 plugin"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:517
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:519
+msgid ""
+"To create a shop page you just need to install this plugin & activate it."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:523
+msgid "Spice Post Slider"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:525
+msgid ""
+"To display the posts in beautiful slider with multiple options you just need "
+"to install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:529
+msgid "Spice Social Share"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:531
+msgid ""
+"To add social share buttons to your posts you just need to install & "
+"activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:534
+msgid "Seo Optimized Images"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:536
+msgid ""
+"It is recommended that you install & activate the Seo Optimized Images "
+"plugin to dynamically insert SEO Friendly alt attributes and title "
+"attributes to your Images."
+msgstr ""
+
+#: admin/inc/include-companion.php:79
+msgid ""
+"To take advantage of this theme's features in the customizer you need to "
+"install the SpiceBox plugin."
+msgstr ""
+
+#: admin/inc/include-companion.php:80
+msgid "Install SpiceBox Now"
+msgstr ""
+
+#: admin/inc/include-companion.php:96
+msgid ""
+"You have installed the SpiceBox plugin. To take advantage of this theme's "
+"features in the customizer, you need to activate it."
+msgstr ""
+
+#: admin/inc/include-companion.php:97
+msgid "Activate SpiceBox now"
+msgstr ""
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:12
+msgid "Features"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:15
+msgid "Frontpage Sections"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:16
+msgid "You will find a number of sections on the front page."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:18
+msgid "Page Templates Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:19
+msgid "Our theme includes various page templates."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:21
+msgid "Layout Options"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:22
+msgid ""
+"Our theme supports both a Full-Width and a Boxed layout options. To choose "
+"your preference, Go to Appearance >> Customize"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:24
+msgid "Header Layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:25
+msgid "Show different header layouts with logo placing"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:28
+msgid "Sticky header"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:30
+msgid "Menu Breakpoint Setting"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:32
+msgid "Container Width Setting"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:33
+msgid "Set the width of the Content Container"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:36
+msgid "Post Navigation Style"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:38
+msgid "Excerpt and Full Content"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:39
+msgid "Show the full content of post or excerpt on blog pages"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:42
+msgid "Colors and Typography Module"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:43
+msgid ""
+"It is a powerful module allows you to adjust the fonts and colors of the "
+"content without adding a single line of css code."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:45
+msgid "Mulitple Color Schemes"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:46
+msgid ""
+"Enjoy any of the 7 preset color schemes, or create your own, without adding "
+"any code."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:48
+msgid "Google Map"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:49
+msgid ""
+"Display your Shop and Business location on your website using Google Maps."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:51
+msgid "Services Page"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:52
+msgid "Show all your services in a single place."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:54
+msgid "Portfolio"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:55
+msgid ""
+"Present your project/portfolio collection with 2 column, 3 column and 4 "
+"column layouts. You can also display your project/portfolio by category."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:57
+msgid "Testimonial / Review Section"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:58
+msgid "Show user feedback on the Homepage."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:60
+msgid "Theme Layout Manager"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:61
+msgid "Reorder the Homepage Sections by just drag and drop"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:64
+msgid "Footer Widget Layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:65
+msgid "There are various layouts for the Footer Widgets"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:68
+msgid "Footer Credit"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:70
+msgid "Mobile Friendly"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:71
+msgid "Responsive layout in all devices"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:73
+msgid "Contact Form Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:74
+msgid ""
+"This theme supports the Contact Form 7 plugin. Use it to build your contact "
+"form."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:76
+msgid "RTL Language Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:77
+msgid ""
+"This theme has RTL language support. For languages that start from right to "
+"left like Arabic, Hebrew, etc."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:79
+msgid "WPML Support"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:80
+msgid "You can use WPML to make your website multilingual."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:82
+msgid "Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:83
+msgid "Get instant 24/7 support on our Support Forum."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:92
+msgid "Free"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:96
+msgid ""
+"Slider [Static Image], Services [Unlimited], Portfolio [3 Portfolio], "
+"Testimonial, Latest News"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:99
+msgid "Business, About, Contact and Full-Width Templates"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:100 admin/tab-pages/free_vs_pro.php:136
+msgid "Wide & Boxed layout"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:101
+msgid "3 Layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:112
+msgid "One testimonial + 1 variation"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:115
+msgid "Not Editable"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:121
+msgid "On WordPress.org Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:129
+msgid "Pro"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:133
+msgid ""
+"Top Header, Slider [Unlimited], Services [Unlimited], Portfolio [Unlimited], "
+"Latest News, Clients, Testimonials, Custom Widgets"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:135
+msgid ""
+"About, Services, Portfolio, Blog Left & Right Sidebars, Blog Full Width, "
+"Page Full Width, Contact Page and much more."
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:137
+msgid "4 Layouts"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:148
+msgid "Unlimited testimonials + 4 variations"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:151
+msgid "Editable"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:156
+msgid "Premium Support Forum"
+msgstr ""
+
+#: admin/tab-pages/free_vs_pro.php:164
+msgid "Get PRO Version Now!"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:10
+msgid "About the Stacy theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:16
+msgid ""
+"This theme is ideal for creating corporate and business websites. There is "
+"no separate premium version of it, as Stacy is a child theme of the "
+"SpicePress WordPress theme. The premium version, SpicePress PRO has tons of "
+"features: a homepage with many sections where you can feature unlimited "
+"slides, portfolios, user reviews, latest news, services, calls to action and "
+"much more. Each section in the Homepage template is carefully designed to "
+"fit to all business requirements."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:18
+msgid ""
+"You can use this theme for any type of activity. Stacy is compatible with "
+"popular plugins like WPML and Polylang. To help you create an effective and "
+"impactful web presence, Stacy has predefined versions of many pages: "
+"Contact, Services, Portfolios, About Us and Blog."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:23
+msgid ""
+"To take full advantage of all the features this theme has to offer, install "
+"and activate the SpiceBox plugin. Go to Customize and install the SpiceBox "
+"plugin."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:25
+msgid "Go to the Customizer"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:31
+msgid "Stacy theme"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:37
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:42
+msgid "Lite Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:48
+msgid "PRO Demo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:54
+msgid "Theme Support"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:60
+msgid "Your feedback is valuable to us"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:66
+msgid "Premium Theme Details"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:72 admin/tab-pages/useful_plugins.php:18
+#: admin/tab-pages/useful_plugins.php:20
+msgid "Changelog"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:11 admin/tab-pages/useful_plugins.php:13
+msgid "Contact Support"
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:12
+msgid ""
+"We want to make sure you have the best experience using this theme, and that "
+"is why we have gathered all the necessary information here for you. We hope "
+"you will enjoy using this theme as much as we enjoy creating great products."
+msgstr ""
+
+#: admin/tab-pages/useful_plugins.php:19
+msgid ""
+"Want to get the list on the latest theme changes? Just consult our changelog "
+"below to get a taste of the recent fixes and features implemented."
+msgstr ""
+
+#: footer.php:5
+msgid ""
+"Proudly powered by <a href=\"https://wordpress.org\">WordPress</a> | Theme: "
+"<a href=\"https://spicethemes.com\" rel=\"nofollow\">Stacy</a> by SpiceThemes"
+msgstr ""
+
+#: footer.php:25
+msgid "Proudly powered by"
+msgstr ""
+
+#: footer.php:25
+msgid "https://wordpress.org"
+msgstr ""
+
+#: footer.php:25
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:25
+msgid "| Theme:"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:25
+msgid "https://spicethemes.com"
+msgstr ""
+
+#: footer.php:25
+msgid "SpicePress"
+msgstr ""
+
+#: footer.php:25
+msgid "by SpiceThemes"
+msgstr ""
+
+#: functions/customizer/customizer_blog_layout_settings.php:27
+msgid "Blog Design"
+msgstr ""
+
+#: functions/customizer/customizer_blog_layout_settings.php:32
+#: functions/customizer/customizer_header_layout_settings.php:53
+msgid "Standard"
+msgstr ""
+
+#: functions/customizer/customizer_blog_layout_settings.php:36
+msgid "List"
+msgstr ""
+
+#: functions/customizer/customizer_header_layout_settings.php:24
+msgid "Note:-"
+msgstr ""
+
+#: functions/customizer/customizer_header_layout_settings.php:25
+msgid ""
+"Above logo placing setting will only work for the standard header design."
+msgstr ""
+
+#: functions/customizer/customizer_header_layout_settings.php:48
+msgid "Header Design"
+msgstr ""
+
+#: functions/customizer/customizer_header_layout_settings.php:57
+msgid "Center"
+msgstr ""
+
+#: functions/template-functions.php:30 functions/template-functions.php:95
+#: functions/template-functions.php:106 functions/template-functions.php:137
+#: functions/template-functions.php:184
+msgid "Toggle navigation"
+msgstr ""
+
+#: functions/template-functions.php:225 functions/template-functions.php:296
+msgid "Turpis mollis"
+msgstr ""
+
+#: functions/template-functions.php:226 functions/template-functions.php:297
+msgid ""
+"Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor "
+"possim mei ludus efficiendi ei sea summo mazim ex."
+msgstr ""
+
+#: functions/template-functions.php:275 functions/template-functions.php:349
+msgid "Read More"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Stacy"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://spicethemes.com/stacy-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Stacy is a responsive, multi-purpose WordPress theme. It’s flexible and "
+"suitable for agencies, blogs, businesses, finance, accounting, consulting, "
+"corporations, or portfolios. Customization is easy and straight-forward, "
+"with options provided that allow you to setup your site to perfectly fit "
+"your desired online presence. For more details, visit this link https://"
+"wordpress.org/themes/spicepress/. We hope you will find the Stacy theme "
+"useful."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "spicethemes"
+msgstr ""
