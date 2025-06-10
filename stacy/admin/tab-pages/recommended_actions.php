@@ -3,7 +3,7 @@
 	$stacy_actions_todo = get_option( 'recommended_actions', false );
 ?>
 <div id="recommended_actions" class="stacy-tab-pane panel-close">
-	<div class="action-list">
+	<div class="row action-list">
 		<?php if($stacy_actions): foreach ($stacy_actions as $key => $stacy_val): ?>
 		<div class="col-md-6">
 			<div class="action" id="<?php echo esc_attr($stacy_val['id']); ?>">

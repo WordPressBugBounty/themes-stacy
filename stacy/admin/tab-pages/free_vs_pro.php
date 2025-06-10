@@ -4,8 +4,8 @@
  */
 ?>
 <div id="free_vs_pro" class="stacy-tab-pane stacy-fre-pro panel-close">
-    <div class="row pricing1">
-		<div class="col-md-12">
+    <div class="pricing1">
+		<div class="row">
 			<div class="col-md-4 padding0">
 				<div class="plan text-center">
 					<header>

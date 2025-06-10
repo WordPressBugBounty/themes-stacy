@@ -2,8 +2,8 @@
 
 Contributors: spicethemes
 Requires at least: 4.5
-Tested up to: 6.3
-Stable tag: 1.4.7
+Tested up to: 6.8
+Stable tag: 1.5
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -38,6 +38,9 @@ Stacy WordPress Theme is the child theme of SpicePress Theme, Copyright (C) 2018
 Stacy WordPress Theme is distributed under the terms of the GNU GPL
 
 == Changelog ==
+
+= 1.5 ==
+* Updated bootstrap 5.3.3.
 
 = 1.4.7 ==
 * Added Post Navigation Feature.

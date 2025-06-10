@@ -7,9 +7,9 @@ Template: spicepress
 Description:Stacy is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit stacy theme detail link https://stacy.spicethemes.com/ . We hope you will find the Stacy theme useful.
 In the Stacy child theme, a new header variation, service section variation, blog variation and testimonial variations are there that are not in the parent theme.
 Tags: one-column, two-columns, right-sidebar, custom-menu, custom-logo, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog, e-commerce
-Version: 1.4.7
+Version: 1.5
 Requires at least: 4.5
-Tested up to: 6.3
+Tested up to: 6.8
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -153,7 +153,7 @@ Text Domain: stacy
 transition: all 0.25s ease-in;
 }
 .services2 .post{
-    text-align: left;
+    text-align: left !important;
 }
 .services2 .post .entry-header h4.entry-title  {position: relative;z-index: 1; }
 .services2 .entry-header h4.entry-title:hover { color:#fff !important; z-index:2;}
@@ -407,3 +407,4 @@ index5 .navbar-custom .dropdown-toggle:before {
     border: none;
   }
 }
+@media (max-width: 1100px) {.navbar5 .navbar-toggler {background-color:#e1e1e1;}}

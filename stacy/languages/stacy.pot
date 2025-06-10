@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Stacy\n"
-"POT-Creation-Date: 2023-02-03 18:22+0530\n"
+"POT-Creation-Date: 2025-06-04 17:28+0530\n"
 "PO-Revision-Date: 2018-11-01 17:24+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -590,23 +590,17 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: functions/template-functions.php:30 functions/template-functions.php:95
-#: functions/template-functions.php:106 functions/template-functions.php:137
-#: functions/template-functions.php:184
-msgid "Toggle navigation"
-msgstr ""
-
-#: functions/template-functions.php:225 functions/template-functions.php:296
+#: functions/template-functions.php:210 functions/template-functions.php:281
 msgid "Turpis mollis"
 msgstr ""
 
-#: functions/template-functions.php:226 functions/template-functions.php:297
+#: functions/template-functions.php:211 functions/template-functions.php:282
 msgid ""
 "Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor "
 "possim mei ludus efficiendi ei sea summo mazim ex."
 msgstr ""
 
-#: functions/template-functions.php:275 functions/template-functions.php:349
+#: functions/template-functions.php:260 functions/template-functions.php:334
 msgid "Read More"
 msgstr ""
 
@@ -628,8 +622,8 @@ msgid ""
 "suitable for agencies, blogs, businesses, finance, accounting, consulting, "
 "corporations, or portfolios. Customization is easy and straight-forward, "
 "with options provided that allow you to setup your site to perfectly fit "
-"your desired online presence. For more details, visit this link https://"
-"wordpress.org/themes/spicepress/. We hope you will find the Stacy theme "
+"your desired online presence. For more details, visit stacy theme detail "
+"link https://stacy.spicethemes.com/ . We hope you will find the Stacy theme "
 "useful."
 msgstr ""
 

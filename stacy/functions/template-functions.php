@@ -26,12 +26,9 @@ if (!function_exists('stacy_center_header_type')) :
 
 <!--Logo & Menu Section-->	
 <nav class="navbar navbar-custom navbar5 hp-hc" role="navigation">
-    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','stacy'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 	<div class="container-fluid p-l-r-0">
 		<!-- Brand and toggle get grouped for better mobile display -->
 	
@@ -91,23 +88,17 @@ if($stacy_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $stacy_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','stacy'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 		</div>
 	<?php } if($stacy_header_logo_placing == 'right'){  ?>
 
 
         <div class="navbar-header align-right">
-		    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','stacy'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-                    </button>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 			<?php the_custom_logo(); ?>
                     <div class="site-branding-text align-right">
                             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -133,12 +124,9 @@ if($stacy_header_logo_placing == 'center'){ ?>
                         </div>
                     </div>
 			
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-                            <span class="sr-only"><?php echo esc_html__('Toggle navigation','stacy'); ?></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 	
 	<?php } ?>
 
@@ -180,12 +168,9 @@ if($stacy_header_logo_placing == 'center'){ ?>
 					<p class="site-description"><?php echo $stacy_description; ?></p>
 				<?php endif; ?>
 			</div>
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
-				<span class="sr-only"><?php echo esc_html__('Toggle navigation','stacy'); ?></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#custom-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
 		</div>
 		
 
@@ -391,10 +376,10 @@ $spicepress_menu_breakpoint = esc_html(get_theme_mod('menu_breakpoint', 1100));
 
 /*stacy child*/
 @media (max-width: <?php echo $spicepress_menu_breakpoint; ?>px){
-.navbar5.hp-hc .navbar-toggle {
+.navbar5.hp-hc .navbar-toggler {
         display: block;
         margin: 15px auto;
-        padding: 9px 0px;
+        padding: 6px 10px;
         float: none;
 }
 .navbar5.navbar-custom .navbar-nav li > a { padding: 15px 17px; }
